@@ -18,13 +18,13 @@ body {
 }
 /*form styles*/
 #msform {
-	width: 400px;
+	width: 300px;
 	margin: 50px auto;
 	text-align: center;
 	position: relative;
 }
 #msform fieldset {
-	background: white;
+	background: yellow;
 	border: 0 none;
 	border-radius: 3px;
 	box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
@@ -54,7 +54,7 @@ body {
 }
 /*buttons*/
 #msform .action-button {
-	width: 100px;
+	width: 150px;
 	background: #27AE60;
 	font-weight: bold;
 	color: white;
@@ -99,7 +99,7 @@ body {
 #progressbar li:before {
 	content: counter(step);
 	counter-increment: step;
-	width: 20px;
+	width: 30px;
 	line-height: 20px;
 	display: block;
 	font-size: 10px;
